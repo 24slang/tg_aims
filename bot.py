@@ -10,5 +10,7 @@ async def main():
     bot = Bot(token=BOT_TOKEN)
     await dp.start_polling(bot)
 
+# Check for git
+
 if __name__ == "__main__":
     asyncio.run(main())
